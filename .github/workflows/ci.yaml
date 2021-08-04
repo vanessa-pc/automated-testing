@@ -17,5 +17,5 @@ jobs:
       run: yarn format:check
     - name: Check quality with ESLint
       run: yarn lint
-    - name: Check code runs as expected
+    - name: Check whether the code runs as expected
       run: yarn test
