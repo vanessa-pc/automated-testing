@@ -12,6 +12,5 @@ test("findShortestString returns the earlier string in cases of joint longest st
   expect(
     findShortestString(["firefighter", "police", "nurses", "doctor"])
   ).toBe("police");
-  expect(
-    findShortestString(["one", "two", "three"])).toBe("one");
+  expect(findShortestString(["one", "two", "three"])).toBe("one");
 });
